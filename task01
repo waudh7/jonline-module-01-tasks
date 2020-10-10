@@ -1,0 +1,12 @@
+//z=((a-3)*b/2)+c - рассчитать значение выражения
+public class task1 {
+
+	public static void main(String[] args) {
+		double a = 10, b = 5, c = 4, sum;
+		
+		sum = ((a - 3) * b / 2) + c;
+		
+		System.out.print(sum);
+	}
+
+}
